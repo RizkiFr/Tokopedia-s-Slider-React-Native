@@ -47,5 +47,12 @@ export default StyleSheet.create({
         width: '100%',
         backgroundColor: '#fff',
         padding: 10
-    }
+    },
+    shadow:{
+        shadowColor: '#000',
+        shadowOffset: { width: 2, height: 2 },
+        shadowOpacity: 0.3,
+        shadowRadius: 1,  
+        elevation: 1,
+    },
 })

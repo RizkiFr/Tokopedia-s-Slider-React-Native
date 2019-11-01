@@ -19,7 +19,7 @@ export default class Slider extends React.Component {
 
     _renderItem ({item, index}) {
         return (
-            <Image source={{uri: item}} style={{width: widthScreen - 60, height: 100, borderRadius: 10}} />
+            <Image source={{uri: item}} style={{width: widthScreen - 60, height: 100, borderRadius: 10, backgroundColor: color.g300}} />
         );
     }
  

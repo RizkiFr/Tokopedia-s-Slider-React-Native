@@ -11,6 +11,7 @@ import Home from '../screens/Home';
 import Purchase from '../screens/Purchase';
 import Profile from '../screens/Profile';
 import More from '../screens/More';
+import Auth from '../screens/Auth';
 import { createIconSetFromIcoMoon } from 'react-native-vector-icons';
 import conf from '../assets/fonts/selection.json'
 
@@ -30,6 +31,13 @@ const ProfileStack = createStackNavigator({
 
 const MoreStack = createStackNavigator({
     More
+})
+
+const AuthStack =createStackNavigator({
+  Auth
+},
+{
+  headerMode: 'none'
 })
 
 const BottomTab = createBottomTabNavigator({
@@ -63,7 +71,8 @@ const BottomTab = createBottomTabNavigator({
 })
 
 const AppContainer = createAppContainer(createSwitchNavigator({
-        BottomTab
+        BottomTab,
+        AuthStack
     },
     {
         initialRouteName: 'BottomTab'
