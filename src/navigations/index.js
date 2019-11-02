@@ -12,6 +12,7 @@ import Purchase from '../screens/Purchase';
 import Profile from '../screens/Profile';
 import More from '../screens/More';
 import Auth from '../screens/Auth';
+import ProfilePicker from '../components/ProfileComponents';
 import { createIconSetFromIcoMoon } from 'react-native-vector-icons';
 import conf from '../assets/fonts/selection.json'
 
@@ -26,7 +27,8 @@ const PurchaseStack = createStackNavigator({
 })
 
 const ProfileStack = createStackNavigator({
-    Profile
+    Profile,
+    ProfilePicker
 })
 
 const MoreStack = createStackNavigator({

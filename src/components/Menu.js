@@ -69,11 +69,11 @@ const styles = StyleSheet.create({
     iconWrap:{
         width: iconWrap,
         alignItems: 'center',
-        padding: 5
+        padding: 5,
     },
     icon:{
         width: widthIcon-25,
-        height: widthIcon-25
+        height: widthIcon-25,
     },
     subTitle:{
         fontSize: 10,
