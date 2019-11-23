@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, ScrollView, Text, ImageBackground, StyleSheet, Image, StatusBar, Platform } from 'react-native';
+import { View, ScrollView, Text, ImageBackground, StyleSheet, Image, StatusBar, Platform, TouchableOpacity, Linking } from 'react-native';
 import Slider from '../components/Slider';
 import { CardName } from '../components/CardName';
 import SearchBox from '../components/SearcBox';

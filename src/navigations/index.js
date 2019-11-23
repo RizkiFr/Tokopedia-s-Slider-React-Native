@@ -5,13 +5,15 @@ import {
     createBottomTabNavigator,
     createSwitchNavigator
 } from 'react-navigation';
-import Ionicons from 'react-native-vector-icons/Ionicons';
 import { color } from '../styles';
 import Home from '../screens/Home';
 import Purchase from '../screens/Purchase';
 import Profile from '../screens/Profile';
 import More from '../screens/More';
 import Auth from '../screens/Auth';
+import Clue from '../screens/Clue';
+import TryoutOptions from '../screens/TryoutOptions';
+import TryOut from '../screens/TryOut';
 import ProfilePicker from '../components/ProfileComponents';
 import { createIconSetFromIcoMoon } from 'react-native-vector-icons';
 import conf from '../assets/fonts/selection.json'
@@ -19,8 +21,21 @@ import conf from '../assets/fonts/selection.json'
 const Icon = createIconSetFromIcoMoon(conf);
 
 const HomeStack = createStackNavigator({
-    Home
+    Home,
+    Clue,
+    TryoutOptions,
+    TryOut
 })
+
+HomeStack.navigationOptions=({navigation})=>{
+  let tabBarVisible = true;
+  if(navigation.state.index>0){
+    tabBarVisible = false;
+  }
+  return {
+    tabBarVisible
+  }
+}
 
 const PurchaseStack = createStackNavigator({
     Purchase

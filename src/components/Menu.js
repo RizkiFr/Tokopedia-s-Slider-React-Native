@@ -1,5 +1,6 @@
 import React from 'react';
 import { View, Text, Image, TouchableOpacity, StyleSheet, Dimensions } from 'react-native';
+import { withNavigation } from 'react-navigation'
 import { color } from '../styles';
 
 class Menu extends React.Component{
@@ -7,7 +8,9 @@ class Menu extends React.Component{
         const menus =[
             {
                 icon: require('../assets/icons/tryout.png'),
-                title: 'Simulasi'
+                title: 'Simulasi',
+                navigate: 'Clue',
+                params: ''
             },
             {
                 icon: require('../assets/icons/study.png'),
@@ -42,7 +45,7 @@ class Menu extends React.Component{
                 <View style={styles.container}>
                     {
                         menus.map((data, index)=>
-                        <TouchableOpacity key={index} style={styles.iconWrap}>
+                        <TouchableOpacity key={index} style={styles.iconWrap} onPress={()=>this.props.navigation.navigate(data.navigate, {params: data})}>
                                 <Image source={data.icon} style={styles.icon}/>
                                 <Text style={styles.subTitle}>{data.title}</Text>
                             </TouchableOpacity>
@@ -54,7 +57,7 @@ class Menu extends React.Component{
     }
 }
 
-export default Menu
+export default withNavigation(Menu)
 
 const widthIcon = (Dimensions.get('screen').width-10)/5
 const iconWrap = (Dimensions.get('screen').width-10)/4
