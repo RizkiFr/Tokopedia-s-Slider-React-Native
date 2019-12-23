@@ -1,8 +1,8 @@
 platform :ios, '9.0'
 require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
 
-target 'alhikmah' do
-  # Pods for alhikmah
+target 'Lelangku' do
+  # Pods for Lelangku
   pod 'FBLazyVector', :path => "../node_modules/react-native/Libraries/FBLazyVector"
   pod 'FBReactNativeSpec', :path => "../node_modules/react-native/Libraries/FBReactNativeSpec"
   pod 'RCTRequired', :path => "../node_modules/react-native/Libraries/RCTRequired"
@@ -34,7 +34,7 @@ target 'alhikmah' do
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
-  target 'alhikmahTests' do
+  target 'LelangkuTests' do
     inherit! :search_paths
     # Pods for testing
   end
@@ -42,10 +42,10 @@ target 'alhikmah' do
   use_native_modules!
 end
 
-target 'alhikmah-tvOS' do
-  # Pods for alhikmah-tvOS
+target 'Lelangku-tvOS' do
+  # Pods for Lelangku-tvOS
 
-  target 'alhikmah-tvOSTests' do
+  target 'Lelangku-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end

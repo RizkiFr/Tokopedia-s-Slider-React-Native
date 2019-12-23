@@ -15,6 +15,9 @@ import Clue from '../screens/Clue';
 import TryoutOptions from '../screens/TryoutOptions';
 import TryOut from '../screens/TryOut';
 import ProfilePicker from '../components/ProfileComponents';
+import AuthLoading from '../screens/AuthLoading';
+import BarangDetail from '../screens/BarangDetail';
+import AddLelang from '../screens/AddLelang';
 import { createIconSetFromIcoMoon } from 'react-native-vector-icons';
 import conf from '../assets/fonts/selection.json'
 
@@ -22,6 +25,8 @@ const Icon = createIconSetFromIcoMoon(conf);
 
 const HomeStack = createStackNavigator({
     Home,
+    BarangDetail,
+    AddLelang,
     Clue,
     TryoutOptions,
     TryOut
@@ -38,13 +43,36 @@ HomeStack.navigationOptions=({navigation})=>{
 }
 
 const PurchaseStack = createStackNavigator({
-    Purchase
+    Purchase,
+    BarangDetail,
 })
+
+PurchaseStack.navigationOptions=({navigation})=>{
+  let tabBarVisible = true;
+  if(navigation.state.index>0){
+    tabBarVisible = false;
+  }
+  return {
+    tabBarVisible
+  }
+}
 
 const ProfileStack = createStackNavigator({
     Profile,
-    ProfilePicker
+    ProfilePicker,
+    BarangDetail,
+
 })
+
+ProfileStack.navigationOptions=({navigation})=>{
+  let tabBarVisible = true;
+  if(navigation.state.index>0){
+    tabBarVisible = false;
+  }
+  return {
+    tabBarVisible
+  }
+}
 
 const MoreStack = createStackNavigator({
     More
@@ -59,7 +87,7 @@ const AuthStack =createStackNavigator({
 
 const BottomTab = createBottomTabNavigator({
     Home: HomeStack,
-    Pesan: PurchaseStack,
+    Riwayat: PurchaseStack,
     Profile: ProfileStack,
     Lainnya: MoreStack
 },
@@ -70,7 +98,7 @@ const BottomTab = createBottomTabNavigator({
         let iconName;
         if(routeName == 'Home'){
           iconName = `home`;
-        }else if (routeName == 'Pesan'){
+        }else if (routeName == 'Riwayat'){
           iconName = `message`;
         }else if (routeName == 'Profile'){
           iconName = `profile`;
@@ -89,10 +117,11 @@ const BottomTab = createBottomTabNavigator({
 
 const AppContainer = createAppContainer(createSwitchNavigator({
         BottomTab,
-        AuthStack
+        AuthStack,
+        AuthLoading
     },
     {
-        initialRouteName: 'BottomTab'
+        initialRouteName: 'AuthLoading'
     })
 );
 

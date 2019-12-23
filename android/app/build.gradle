@@ -128,7 +128,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.alhikmah"
+        applicationId "id.lelangku.app"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

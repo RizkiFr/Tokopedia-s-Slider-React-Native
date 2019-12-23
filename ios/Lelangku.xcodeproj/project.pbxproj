@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* alhikmahTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* alhikmahTests.m */; };
-		0FFBA03BFA9F722A3839361D /* libPods-alhikmah-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3371FBE8A9D4189AFC37BA3A /* libPods-alhikmah-tvOS.a */; };
+		00E356F31AD99517003FC87E /* LelangkuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* LelangkuTests.m */; };
+		0FFBA03BFA9F722A3839361D /* libPods-Lelangku-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3371FBE8A9D4189AFC37BA3A /* libPods-Lelangku-tvOS.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
@@ -16,10 +16,10 @@
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2DCD954D1E0B4F2C00145EB5 /* alhikmahTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* alhikmahTests.m */; };
-		31D4BAAF63BA558099852ACF /* libPods-alhikmah.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 14857A7AF210336FA2E0E7C8 /* libPods-alhikmah.a */; };
-		6811F71442B96378C16EEBA9 /* libPods-alhikmahTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1BCE8B87C6A4D16B88A37E1 /* libPods-alhikmahTests.a */; };
-		A1EBC63D828B230C93553B13 /* libPods-alhikmah-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A41137225B0A7005EEC70EF4 /* libPods-alhikmah-tvOSTests.a */; };
+		2DCD954D1E0B4F2C00145EB5 /* LelangkuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* LelangkuTests.m */; };
+		31D4BAAF63BA558099852ACF /* libPods-Lelangku.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 14857A7AF210336FA2E0E7C8 /* libPods-Lelangku.a */; };
+		6811F71442B96378C16EEBA9 /* libPods-LelangkuTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1BCE8B87C6A4D16B88A37E1 /* libPods-LelangkuTests.a */; };
+		A1EBC63D828B230C93553B13 /* libPods-Lelangku-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A41137225B0A7005EEC70EF4 /* libPods-Lelangku-tvOSTests.a */; };
 		AD409CABA1D74E9BB00F0C4F /* icomoon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7100A1B178A844479BD05015 /* icomoon.ttf */; };
 /* End PBXBuildFile section */
 
@@ -29,57 +29,57 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = alhikmah;
+			remoteInfo = Lelangku;
 		};
 		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "alhikmah-tvOS";
+			remoteInfo = "Lelangku-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* alhikmahTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = alhikmahTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* LelangkuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LelangkuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* alhikmahTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = alhikmahTests.m; sourceTree = "<group>"; };
-		04494870E9A5A4763213DE90 /* Pods-alhikmahTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-alhikmahTests.release.xcconfig"; path = "Target Support Files/Pods-alhikmahTests/Pods-alhikmahTests.release.xcconfig"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* alhikmah.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = alhikmah.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = alhikmah/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = alhikmah/AppDelegate.m; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* LelangkuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LelangkuTests.m; sourceTree = "<group>"; };
+		04494870E9A5A4763213DE90 /* Pods-LelangkuTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LelangkuTests.release.xcconfig"; path = "Target Support Files/Pods-LelangkuTests/Pods-LelangkuTests.release.xcconfig"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* Lelangku.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lelangku.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Lelangku/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Lelangku/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = alhikmah/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = alhikmah/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = alhikmah/main.m; sourceTree = "<group>"; };
-		14857A7AF210336FA2E0E7C8 /* libPods-alhikmah.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-alhikmah.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E47B1E0B4A5D006451C7 /* alhikmah-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "alhikmah-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* alhikmah-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "alhikmah-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Lelangku/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Lelangku/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Lelangku/main.m; sourceTree = "<group>"; };
+		14857A7AF210336FA2E0E7C8 /* libPods-Lelangku.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Lelangku.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E47B1E0B4A5D006451C7 /* Lelangku-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lelangku-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* Lelangku-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lelangku-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D9A6707F1CE494BA025282C /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
 		32BB7EBFA8404A22957A3B66 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
-		3371FBE8A9D4189AFC37BA3A /* libPods-alhikmah-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-alhikmah-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3371FBE8A9D4189AFC37BA3A /* libPods-Lelangku-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Lelangku-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F73E828681447C4A2225C37 /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
 		44E76DE267E94151BC584059 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
-		4BA3B047D4863FB5FF3C53B4 /* Pods-alhikmah-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-alhikmah-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-alhikmah-tvOSTests/Pods-alhikmah-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4BA3B047D4863FB5FF3C53B4 /* Pods-Lelangku-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lelangku-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-Lelangku-tvOSTests/Pods-Lelangku-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		57CD84AEDE3C4C93AA36D2EE /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
 		6E42D0EF0A474C47A8FB45A9 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
 		7100A1B178A844479BD05015 /* icomoon.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = icomoon.ttf; path = ../src/assets/fonts/icomoon.ttf; sourceTree = "<group>"; };
-		7336A77803805B1914035926 /* Pods-alhikmah.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-alhikmah.release.xcconfig"; path = "Target Support Files/Pods-alhikmah/Pods-alhikmah.release.xcconfig"; sourceTree = "<group>"; };
+		7336A77803805B1914035926 /* Pods-Lelangku.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lelangku.release.xcconfig"; path = "Target Support Files/Pods-Lelangku/Pods-Lelangku.release.xcconfig"; sourceTree = "<group>"; };
 		791F3447F4384BE58EE821E0 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
 		7E4B7EEA98104EF6BDDD2A19 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
-		8C7BBCB3D326FCA5BC41B6B2 /* Pods-alhikmahTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-alhikmahTests.debug.xcconfig"; path = "Target Support Files/Pods-alhikmahTests/Pods-alhikmahTests.debug.xcconfig"; sourceTree = "<group>"; };
-		95082DBD3BD89CDEDBF06722 /* Pods-alhikmah-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-alhikmah-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-alhikmah-tvOS/Pods-alhikmah-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		8C7BBCB3D326FCA5BC41B6B2 /* Pods-LelangkuTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LelangkuTests.debug.xcconfig"; path = "Target Support Files/Pods-LelangkuTests/Pods-LelangkuTests.debug.xcconfig"; sourceTree = "<group>"; };
+		95082DBD3BD89CDEDBF06722 /* Pods-Lelangku-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lelangku-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-Lelangku-tvOS/Pods-Lelangku-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		9C55950EC13E4642AB949C85 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
 		A0943920714B4E3D8CDCECEB /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
-		A1AFBAAEFF49BA214BB15B46 /* Pods-alhikmah-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-alhikmah-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-alhikmah-tvOSTests/Pods-alhikmah-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		A41137225B0A7005EEC70EF4 /* libPods-alhikmah-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-alhikmah-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B1BCE8B87C6A4D16B88A37E1 /* libPods-alhikmahTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-alhikmahTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1AFBAAEFF49BA214BB15B46 /* Pods-Lelangku-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lelangku-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-Lelangku-tvOSTests/Pods-Lelangku-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		A41137225B0A7005EEC70EF4 /* libPods-Lelangku-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Lelangku-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1BCE8B87C6A4D16B88A37E1 /* libPods-LelangkuTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LelangkuTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB5343A79F1C4EB6BF891241 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
 		D72907139204485BAFB487B0 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
 		DD94EAF806484B68994F775C /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
-		DF9BB89E598FB0B3A847CE21 /* Pods-alhikmah-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-alhikmah-tvOS.release.xcconfig"; path = "Target Support Files/Pods-alhikmah-tvOS/Pods-alhikmah-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		E84FD2FC2F41F5E91B2CA0D8 /* Pods-alhikmah.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-alhikmah.debug.xcconfig"; path = "Target Support Files/Pods-alhikmah/Pods-alhikmah.debug.xcconfig"; sourceTree = "<group>"; };
+		DF9BB89E598FB0B3A847CE21 /* Pods-Lelangku-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lelangku-tvOS.release.xcconfig"; path = "Target Support Files/Pods-Lelangku-tvOS/Pods-Lelangku-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		E84FD2FC2F41F5E91B2CA0D8 /* Pods-Lelangku.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lelangku.debug.xcconfig"; path = "Target Support Files/Pods-Lelangku/Pods-Lelangku.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		ED2F6ED3318240DAA5F2BFB6 /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
@@ -92,7 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6811F71442B96378C16EEBA9 /* libPods-alhikmahTests.a in Frameworks */,
+				6811F71442B96378C16EEBA9 /* libPods-LelangkuTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,7 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31D4BAAF63BA558099852ACF /* libPods-alhikmah.a in Frameworks */,
+				31D4BAAF63BA558099852ACF /* libPods-Lelangku.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,7 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FFBA03BFA9F722A3839361D /* libPods-alhikmah-tvOS.a in Frameworks */,
+				0FFBA03BFA9F722A3839361D /* libPods-Lelangku-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,20 +116,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1EBC63D828B230C93553B13 /* libPods-alhikmah-tvOSTests.a in Frameworks */,
+				A1EBC63D828B230C93553B13 /* libPods-Lelangku-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* alhikmahTests */ = {
+		00E356EF1AD99517003FC87E /* LelangkuTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* alhikmahTests.m */,
+				00E356F21AD99517003FC87E /* LelangkuTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = alhikmahTests;
+			path = LelangkuTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -140,7 +140,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* alhikmah */ = {
+		13B07FAE1A68108700A75B9A /* Lelangku */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -151,7 +151,7 @@
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = alhikmah;
+			name = Lelangku;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -159,10 +159,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				14857A7AF210336FA2E0E7C8 /* libPods-alhikmah.a */,
-				3371FBE8A9D4189AFC37BA3A /* libPods-alhikmah-tvOS.a */,
-				A41137225B0A7005EEC70EF4 /* libPods-alhikmah-tvOSTests.a */,
-				B1BCE8B87C6A4D16B88A37E1 /* libPods-alhikmahTests.a */,
+				14857A7AF210336FA2E0E7C8 /* libPods-Lelangku.a */,
+				3371FBE8A9D4189AFC37BA3A /* libPods-Lelangku-tvOS.a */,
+				A41137225B0A7005EEC70EF4 /* libPods-Lelangku-tvOSTests.a */,
+				B1BCE8B87C6A4D16B88A37E1 /* libPods-LelangkuTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -170,14 +170,14 @@
 		38B6750ECDF680B702708717 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E84FD2FC2F41F5E91B2CA0D8 /* Pods-alhikmah.debug.xcconfig */,
-				7336A77803805B1914035926 /* Pods-alhikmah.release.xcconfig */,
-				95082DBD3BD89CDEDBF06722 /* Pods-alhikmah-tvOS.debug.xcconfig */,
-				DF9BB89E598FB0B3A847CE21 /* Pods-alhikmah-tvOS.release.xcconfig */,
-				4BA3B047D4863FB5FF3C53B4 /* Pods-alhikmah-tvOSTests.debug.xcconfig */,
-				A1AFBAAEFF49BA214BB15B46 /* Pods-alhikmah-tvOSTests.release.xcconfig */,
-				8C7BBCB3D326FCA5BC41B6B2 /* Pods-alhikmahTests.debug.xcconfig */,
-				04494870E9A5A4763213DE90 /* Pods-alhikmahTests.release.xcconfig */,
+				E84FD2FC2F41F5E91B2CA0D8 /* Pods-Lelangku.debug.xcconfig */,
+				7336A77803805B1914035926 /* Pods-Lelangku.release.xcconfig */,
+				95082DBD3BD89CDEDBF06722 /* Pods-Lelangku-tvOS.debug.xcconfig */,
+				DF9BB89E598FB0B3A847CE21 /* Pods-Lelangku-tvOS.release.xcconfig */,
+				4BA3B047D4863FB5FF3C53B4 /* Pods-Lelangku-tvOSTests.debug.xcconfig */,
+				A1AFBAAEFF49BA214BB15B46 /* Pods-Lelangku-tvOSTests.release.xcconfig */,
+				8C7BBCB3D326FCA5BC41B6B2 /* Pods-LelangkuTests.debug.xcconfig */,
+				04494870E9A5A4763213DE90 /* Pods-LelangkuTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -192,9 +192,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* alhikmah */,
+				13B07FAE1A68108700A75B9A /* Lelangku */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* alhikmahTests */,
+				00E356EF1AD99517003FC87E /* LelangkuTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				38B6750ECDF680B702708717 /* Pods */,
@@ -208,10 +208,10 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* alhikmah.app */,
-				00E356EE1AD99517003FC87E /* alhikmahTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* alhikmah-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* alhikmah-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* Lelangku.app */,
+				00E356EE1AD99517003FC87E /* LelangkuTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* Lelangku-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* Lelangku-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -243,9 +243,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* alhikmahTests */ = {
+		00E356ED1AD99517003FC87E /* LelangkuTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "alhikmahTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "LelangkuTests" */;
 			buildPhases = (
 				ED945AA61FC23C0D53421422 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -257,14 +257,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = alhikmahTests;
-			productName = alhikmahTests;
-			productReference = 00E356EE1AD99517003FC87E /* alhikmahTests.xctest */;
+			name = LelangkuTests;
+			productName = LelangkuTests;
+			productReference = 00E356EE1AD99517003FC87E /* LelangkuTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* alhikmah */ = {
+		13B07F861A680F5B00A75B9A /* Lelangku */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "alhikmah" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Lelangku" */;
 			buildPhases = (
 				53392C9A2F0B50D44A419CE4 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -278,14 +278,14 @@
 			);
 			dependencies = (
 			);
-			name = alhikmah;
-			productName = alhikmah;
-			productReference = 13B07F961A680F5B00A75B9A /* alhikmah.app */;
+			name = Lelangku;
+			productName = Lelangku;
+			productReference = 13B07F961A680F5B00A75B9A /* Lelangku.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* alhikmah-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* Lelangku-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "alhikmah-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Lelangku-tvOS" */;
 			buildPhases = (
 				453E53AEC191AFBBB9A0EF98 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
@@ -298,14 +298,14 @@
 			);
 			dependencies = (
 			);
-			name = "alhikmah-tvOS";
-			productName = "alhikmah-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* alhikmah-tvOS.app */;
+			name = "Lelangku-tvOS";
+			productName = "Lelangku-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* Lelangku-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* alhikmah-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* Lelangku-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "alhikmah-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Lelangku-tvOSTests" */;
 			buildPhases = (
 				EA861E73C93FBDA19B72E009 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
@@ -317,9 +317,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "alhikmah-tvOSTests";
-			productName = "alhikmah-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* alhikmah-tvOSTests.xctest */;
+			name = "Lelangku-tvOSTests";
+			productName = "Lelangku-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* Lelangku-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -350,7 +350,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "alhikmah" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Lelangku" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -364,10 +364,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* alhikmah */,
-				00E356ED1AD99517003FC87E /* alhikmahTests */,
-				2D02E47A1E0B4A5D006451C7 /* alhikmah-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* alhikmah-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* Lelangku */,
+				00E356ED1AD99517003FC87E /* LelangkuTests */,
+				2D02E47A1E0B4A5D006451C7 /* Lelangku-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* Lelangku-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -442,7 +442,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-alhikmah/Pods-alhikmah-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-Lelangku/Pods-Lelangku-resources.sh",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
@@ -481,7 +481,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-alhikmah/Pods-alhikmah-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Lelangku/Pods-Lelangku-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		453E53AEC191AFBBB9A0EF98 /* [CP] Check Pods Manifest.lock */ = {
@@ -499,7 +499,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-alhikmah-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Lelangku-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -521,7 +521,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-alhikmah-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Lelangku-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -543,7 +543,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-alhikmah-tvOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Lelangku-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -565,7 +565,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-alhikmahTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-LelangkuTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -617,7 +617,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* alhikmahTests.m in Sources */,
+				00E356F31AD99517003FC87E /* LelangkuTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -643,7 +643,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* alhikmahTests.m in Sources */,
+				2DCD954D1E0B4F2C00145EB5 /* LelangkuTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -652,12 +652,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* alhikmah */;
+			target = 13B07F861A680F5B00A75B9A /* Lelangku */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* alhikmah-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* Lelangku-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -669,7 +669,7 @@
 				13B07FB21A68108700A75B9A /* Base */,
 			);
 			name = LaunchScreen.xib;
-			path = alhikmah;
+			path = Lelangku;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -677,14 +677,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8C7BBCB3D326FCA5BC41B6B2 /* Pods-alhikmahTests.debug.xcconfig */;
+			baseConfigurationReference = 8C7BBCB3D326FCA5BC41B6B2 /* Pods-LelangkuTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = alhikmahTests/Info.plist;
+				INFOPLIST_FILE = LelangkuTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -694,17 +694,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/alhikmah.app/alhikmah";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lelangku.app/Lelangku";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 04494870E9A5A4763213DE90 /* Pods-alhikmahTests.release.xcconfig */;
+			baseConfigurationReference = 04494870E9A5A4763213DE90 /* Pods-LelangkuTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = alhikmahTests/Info.plist;
+				INFOPLIST_FILE = LelangkuTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -714,13 +714,13 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/alhikmah.app/alhikmah";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lelangku.app/Lelangku";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E84FD2FC2F41F5E91B2CA0D8 /* Pods-alhikmah.debug.xcconfig */;
+			baseConfigurationReference = E84FD2FC2F41F5E91B2CA0D8 /* Pods-Lelangku.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
@@ -728,7 +728,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
 				DEVELOPMENT_TEAM = GQ2HXP5MWL;
-				INFOPLIST_FILE = alhikmah/Info.plist;
+				INFOPLIST_FILE = Lelangku/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -736,8 +736,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = id.alhikmah.bimbel;
-				PRODUCT_NAME = alhikmah;
+				PRODUCT_BUNDLE_IDENTIFIER = id.lelangku.app;
+				PRODUCT_NAME = Lelangku;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -745,14 +745,14 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7336A77803805B1914035926 /* Pods-alhikmah.release.xcconfig */;
+			baseConfigurationReference = 7336A77803805B1914035926 /* Pods-Lelangku.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = GQ2HXP5MWL;
-				INFOPLIST_FILE = alhikmah/Info.plist;
+				INFOPLIST_FILE = Lelangku/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -760,8 +760,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = id.alhikmah.bimbel;
-				PRODUCT_NAME = alhikmah;
+				PRODUCT_BUNDLE_IDENTIFIER = id.lelangku.app;
+				PRODUCT_NAME = Lelangku;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -769,7 +769,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 95082DBD3BD89CDEDBF06722 /* Pods-alhikmah-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 95082DBD3BD89CDEDBF06722 /* Pods-Lelangku-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -780,14 +780,14 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "alhikmah-tvOS/Info.plist";
+				INFOPLIST_FILE = "Lelangku-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.alhikmah-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.Lelangku-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -797,7 +797,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DF9BB89E598FB0B3A847CE21 /* Pods-alhikmah-tvOS.release.xcconfig */;
+			baseConfigurationReference = DF9BB89E598FB0B3A847CE21 /* Pods-Lelangku-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -808,14 +808,14 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "alhikmah-tvOS/Info.plist";
+				INFOPLIST_FILE = "Lelangku-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.alhikmah-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.Lelangku-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -825,7 +825,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4BA3B047D4863FB5FF3C53B4 /* Pods-alhikmah-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 4BA3B047D4863FB5FF3C53B4 /* Pods-Lelangku-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -835,24 +835,24 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "alhikmah-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "Lelangku-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.alhikmah-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.Lelangku-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/alhikmah-tvOS.app/alhikmah-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lelangku-tvOS.app/Lelangku-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A1AFBAAEFF49BA214BB15B46 /* Pods-alhikmah-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = A1AFBAAEFF49BA214BB15B46 /* Pods-Lelangku-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -862,17 +862,17 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "alhikmah-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "Lelangku-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.alhikmah-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.Lelangku-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/alhikmah-tvOS.app/alhikmah-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lelangku-tvOS.app/Lelangku-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -979,7 +979,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "alhikmahTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "LelangkuTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -988,7 +988,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "alhikmah" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Lelangku" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -997,7 +997,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "alhikmah-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Lelangku-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -1006,7 +1006,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "alhikmah-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Lelangku-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -1015,7 +1015,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "alhikmah" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Lelangku" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

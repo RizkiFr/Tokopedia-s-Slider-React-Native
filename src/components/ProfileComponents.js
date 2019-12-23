@@ -9,9 +9,9 @@ export class PhotoProfile extends React.Component{
         return(
             <View style={styles.headerContainer}>
                 <View style={styles.backgroundContainer}>
-                    <Image source={{uri: 'https://avatars0.githubusercontent.com/u/33630790?s=400&v=4'}} blurRadius={20} style={{height: 100, width: '100%'}} />
+                    <Image source={{uri: 'https://i.ya-webdesign.com/images/profile-image-png-8.png'}} blurRadius={20} style={{height: 100, width: '100%'}} />
                 </View>
-                <Image source={{uri: 'https://avatars0.githubusercontent.com/u/33630790?s=400&v=4'}} style={[styles.ava]} />
+                <Image source={{uri: 'https://i.ya-webdesign.com/images/profile-image-png-8.png'}} style={[styles.ava]} />
             </View>
         )
     }
@@ -65,15 +65,9 @@ export class ProfileData extends React.Component{
     render(){
         return(
             <View style={styles.filedContainer}>
-                <Inputs placeholder='Nama Lengkap' label='Nama Lengkap' />
-                <Picker value={this.state.gender} label='Laki' onPress={()=>this.toNavigate('ProfilePicker')} />
-                <Inputs placeholder='Bandung' label='Tempat Lahir' />
-                <Inputs placeholder='04-02-1997' label='Tanggal Lahir' />
-                <Inputs placeholder='Asal Sekolah' label='Asal Sekolah' />
-                <Inputs placeholder='Kelas' label='Kelas' />
-                <Inputs placeholder='Jurusan' label='Jurusan' />
-                <Inputs placeholder='Nama Orangtua' label='Nama Orangtua' />
-                <Inputs placeholder='Nomor Ponsel Orangtua' label='Nomor Ponsel Orangtua' />
+                <Inputs editable={false} value={this.props.data.name} placeholder='Nama Lengkap' label='Nama Lengkap' />
+                <Inputs editable={false} value={this.props.data.email} placeholder='Bandung' label='Tempat Lahir' />
+                <Inputs editable={false} value={this.props.data.whatsapp} placeholder='04-02-1997' label='Tanggal Lahir' />
             </View>
         )
     }

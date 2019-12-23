@@ -10,15 +10,25 @@ import React from 'react';
 import {
   SafeAreaView,
   StatusBar,
-  Text
+  Text,
+  AsyncStorage,
 } from 'react-native';
 import AppContainer from './src/navigations';
+import axios from 'axios';
+
+AsyncStorage.getItem('access_token').then(val => {
+  axios.defaults.headers.common['Authorization'] = 'Bearer ' + val;
+})
+axios.defaults.baseURL = 'https://xii.pajajarantrans.co.id/public';
+
 
 const App: () => React$Node = () => {
   return (
     <>
-      <StatusBar translucent backgroundColor='transparent' barStyle={'dark-content'} />
-      <AppContainer />
+      {/* <SafeAreaView> */}
+        <StatusBar translucent backgroundColor='transparent' barStyle={'dark-content'} />
+        <AppContainer />
+      {/* </SafeAreaView> */}
     </>
   );
 };

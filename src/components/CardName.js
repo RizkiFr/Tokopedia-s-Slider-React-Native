@@ -1,18 +1,24 @@
 import React from 'react';
-import { View, Dimensions, StyleSheet, Image, Text, Platform } from 'react-native';
+import { View, Dimensions, StyleSheet, Image, Text, Platform, TouchableOpacity } from 'react-native';
+import FontAwesome from 'react-native-vector-icons/FontAwesome';
 
-export class CardName extends React.Component{
-    render(){
-        return(
+FontAwesome.loadFont()
+
+export class CardName extends React.Component {
+    render() {
+        return (
             <View style={styles.cardName}>
-                <Image source={{uri: 'https://avatars0.githubusercontent.com/u/33630790?s=400&v=4'}} style={styles.ava} />
+                <Image source={{ uri: 'https://i.ya-webdesign.com/images/profile-image-png-8.png' }} style={styles.ava} />
                 <View style={styles.texts}>
-                    <Text style={{fontWeight: 'bold', color: '#616161'}}>Hi, Rizki Fr</Text>
+                    <Text style={{ fontWeight: 'bold', color: '#616161' }}>{this.props.name}</Text>
                     {/* <Text style={{fontSize: 12, color: '#616161'}}>Ngopi dimana hari ini? </Text> */}
                 </View>
                 <View style={styles.progress}>
-                    <View style={{padding: 5}}>
-                        {/* <Text style={{fontSize: 10, color: '#616161'}}>Wallet</Text> */}
+                    <View style={{ padding: 5 }}>
+                        <TouchableOpacity style={{alignItems: 'center', justifyContent: 'center'}} onPress={this.props.addLelang}>
+                            <FontAwesome name='plus' size={20} color='#616161' />
+                            <Text style={{fontSize: 6, color: '#616161'}}>Lelang Baru</Text>
+                        </TouchableOpacity>
                         {/* <Text style={{fontWeight: 'bold', fontSize: 18, color: '#2196F3'}}>72K</Text> */}
                     </View>
                     {/* <Ionicons name='ios-rocket' size={25} color='#616161' /> */}
@@ -25,22 +31,22 @@ export class CardName extends React.Component{
 const widthScreen = Dimensions.get('screen').width
 
 const styles = StyleSheet.create({
-    cardName:{
+    cardName: {
         height: 50,
-        width: widthScreen-20,
+        width: widthScreen - 20,
         backgroundColor: '#fff',
         borderRadius: 5,
         alignSelf: 'center',
         shadowColor: '#000',
         shadowOffset: { width: 0, height: 0 },
         shadowOpacity: 0.2,
-        shadowRadius: 2,  
+        shadowRadius: 2,
         elevation: 2,
         padding: 5,
         flexDirection: 'row',
-        marginTop: Platform.OS == 'ios'? -50 : -30
+        marginTop: Platform.OS == 'ios' ? -50 : -30
     },
-    ava:{
+    ava: {
         height: 40,
         width: 40,
         borderRadius: 20,
@@ -48,12 +54,12 @@ const styles = StyleSheet.create({
         borderColor: '#eee',
         flex: 0
     },
-    texts:{
+    texts: {
         flex: 2,
         marginLeft: 10,
         justifyContent: 'center'
     },
-    progress:{
+    progress: {
         flex: 1,
         flexDirection: 'row',
         alignItems: 'center',

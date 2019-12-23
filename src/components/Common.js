@@ -1,9 +1,38 @@
 import React from 'react';
 import { View, Dimensions, StyleSheet, Image, Text, TouchableOpacity, FlatList } from 'react-native';
 import styless, { color } from '../styles';
+import { BarIndicator } from 'react-native-indicators';
+import Modal from 'react-native-modal';
+import 'intl';
+import 'intl/locale-data/jsonp/id-ID';
 
 const width = Dimensions.get('window').width
 const height = Dimensions.get('window').height
+
+export class Button extends React.Component{
+    render(){
+        return(
+            <TouchableOpacity {...this.props} style={[styles.btn, {backgroundColor: this.props.disabled? color.g300 : color.primary}, this.props.style,]} >
+                {
+                    this.props.loading?
+                    <BarIndicator  color={'#fff'} count={5} size={20}/> :
+                    <Text style={[styles.textBtn ,this.props.textStyle]}>{this.props.title}</Text>
+                }
+                {this.props.component}
+            </TouchableOpacity>
+        )
+    }
+}
+
+export class Loading extends React.Component{
+    render(){
+        return(
+            <Modal isVisible={this.props.isActive}>
+                <BarIndicator  color={'#fff'} count={5}/>
+            </Modal>
+        )
+    }
+}
 
 export class Divider extends React.Component{
     render(){
@@ -55,6 +84,28 @@ export class Options extends React.Component{
     }
 }
 
+export function toRp(num){
+    return(
+        new Intl.NumberFormat('id-ID', {
+            style: 'currency',
+            currency: 'IDR'
+            }).format(num)
+    )
+}
+
+export function nonRp(num){
+    return(
+        new Intl.NumberFormat('id-ID', {
+            }).format(num)
+    )
+}
+
+export function fromRp(num){
+    return(
+        parseInt(num.replace(/[^0-9$]/g, ''))
+    )
+}
+
 const styles = StyleSheet.create({
     wrapClues:{
         padding: 10,
@@ -100,5 +151,18 @@ const styles = StyleSheet.create({
         padding: 2,
         borderBottomLeftRadius: 10,
         borderBottomRightRadius: 10
-    }
+    },
+    btn:{
+        padding: 5,
+        marginVertical: 10,
+        height: 35,
+        borderRadius: 5,
+        justifyContent: 'center',
+        alignItems: 'center',
+        flexDirection: 'row'
+    },
+    textBtn:{
+        color: '#fff',
+        fontWeight: 'bold'
+    },
 })

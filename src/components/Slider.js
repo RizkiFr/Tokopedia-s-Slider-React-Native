@@ -25,9 +25,9 @@ export default class Slider extends React.Component {
  
     render () {
         const data = [
-            'https://marketing.ruangguru.com/hubfs/Hubspot%20Banner%20Web_1280x450-Ads%20RLO%20(1).jpg',
-            'https://cdn2.hubspot.net/hubfs/2828691/RK_-_LifeatRuangguru_-_Agus-01.png',
-            'https://i0.wp.com/wirahadie.com/wp-content/uploads/2019/09/les.png?resize=845%2C475&ssl=1'
+            'https://blog.spiralytics.com/hubfs/Spiralytics%20Info2-Google%20Ad%20Placement-Banner.png',
+            'http://www.downloadallwallpapers.com/ssgrouplogin/images/6357854691569060422Google_Logo_Texture_Background_Brand_Banner_Graphics_Design_Art_HD_Wallpaper_[DownloadAllWallpapers.com].jpg',
+            'https://i1.wp.com/www.splendidcomms.com/wp-content/uploads/2019/01/google-wallpaper-9.jpg?quality=80&strip=all'
         ]
         return (
             <>

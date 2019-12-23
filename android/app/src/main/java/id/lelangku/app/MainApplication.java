@@ -1,4 +1,4 @@
-package com.alhikmah;
+package id.lelangku.app;
 
 import android.app.Application;
 import android.content.Context;

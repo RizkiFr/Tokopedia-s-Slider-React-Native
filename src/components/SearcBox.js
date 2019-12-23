@@ -9,7 +9,7 @@ class SearchBox extends React.Component{
     render(){
         return(
             <View style={styles.container}>
-                <TextInput placeholder='Cari rumus, jurusan, atau pelajaran...' style={styles.input} placeholderTextColor={color.g300} />
+                <TextInput placeholder='Cari barang impian kamu...' style={styles.input} placeholderTextColor={color.g300} />
                 <View style={styles.btn}>
                     <TouchableOpacity>
                         <Ionicons name='ios-search' color={this.props.height>30?color.g300:color.g100} size={30} />
