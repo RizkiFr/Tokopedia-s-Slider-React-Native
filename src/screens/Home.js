@@ -7,6 +7,8 @@ import { Header } from 'react-navigation';
 import { Divider } from '../components/Common';
 import Menu from '../components/Menu';
 
+// cek push to 2 repo
+
 export default class Home extends React.Component{
     static navigationOptions = ({navigation}) => {
         return{
